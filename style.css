@@ -1,0 +1,69 @@
+body
+{
+    /* font-family: cursive; */
+    font-family: monospace;
+    /* Muda cor do fundo do site */
+    background-color: #f5cdb5;
+        
+}
+
+/* Altera a cor do texto do título da página h1 (todos h1) */
+h1
+{
+    text-align: center;
+    color: #70341f;
+    font-family: serif;
+
+}
+
+table 
+{
+    /* Altera a cor do texto */
+    color:#5c4950;
+
+    /* Altera a cor do fundo da tabela */
+    background-color:#70341f;
+
+    /* Alinha o texto no centro */
+    text-align:center;
+
+    /* Sombreamento no texto da tabela */
+    text-shadow: 2px 2px 3px;
+
+    /* Borda arredondada */
+    border-radius: 10px;
+
+    /* Borda na tabela com bolinhas  */
+    /* border: 2px dotted blue; */
+
+     /* Centralizar a tabela */
+    margin-left: 10px;
+    margin-right: auto; 
+  
+} 
+
+/* Insere bordas internas para todas as colunas e células */
+td,th
+{
+    border: 1px solid rgb(28, 28, 29);
+    font-size: 12pt;
+}
+
+/* Altera cor de todos os TDs  */
+td
+{
+    color:black;
+}
+
+/* Altera cor do parágrafo */
+p
+{
+    color:#70341f;
+    font-size: 12pt;
+}
+
+ul,ol
+{
+    font-size: 12pt;
+    color:#70341f;
+}
